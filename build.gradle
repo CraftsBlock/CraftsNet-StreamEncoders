@@ -1,0 +1,41 @@
+plugins {
+    id 'java'
+}
+
+group = 'de.craftsblock'
+version = '1.0.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven { url "https://repo.craftsblock.de/releases" }
+}
+
+dependencies {
+    // CraftsBlock related dependencies ---------------------------------------------------------------------------------------
+
+    implementation 'de.craftsblock:craftscore:3.8.2-SNAPSHOT'
+//    implementation 'de.craftsblock:craftsnet:3.3.3-SNAPSHOT'
+    implementation files("C:\\Users\\phili\\Desktop\\CraftsNet.jar")
+
+    // Third party needed dependencies ----------------------------------------------------------------------------------------
+
+    // https://mvnrepository.com/artifact/org.jetbrains/annotations
+    implementation 'org.jetbrains:annotations:26.0.1'
+
+    // Encoding dependencies --------------------------------------------------------------------------------------------------
+
+    // https://mvnrepository.com/artifact/com.nixxcode.jvmbrotli/jvmbrotli
+    implementation 'com.nixxcode.jvmbrotli:jvmbrotli:0.2.0'
+
+    // https://mvnrepository.com/artifact/com.nixxcode.jvmbrotli/jvmbrotli-darwin-x86-amd64
+    implementation 'com.nixxcode.jvmbrotli:jvmbrotli-darwin-x86-amd64:0.2.0'
+
+    // https://mvnrepository.com/artifact/com.nixxcode.jvmbrotli/jvmbrotli-win32-x86-amd64
+    implementation 'com.nixxcode.jvmbrotli:jvmbrotli-win32-x86-amd64:0.2.0'
+
+    // https://mvnrepository.com/artifact/com.nixxcode.jvmbrotli/jvmbrotli-linux-x86-amd64
+    implementation 'com.nixxcode.jvmbrotli:jvmbrotli-linux-x86-amd64:0.2.0'
+
+    // https://mvnrepository.com/artifact/com.github.luben/zstd-jni
+    implementation 'com.github.luben:zstd-jni:1.5.6-9'
+}
