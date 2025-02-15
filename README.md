@@ -59,7 +59,7 @@ dependencies {
 ## Loading
 
 > [!Note]
-> Only required if you are using the install method [Maven](https://github.com/CraftsBlock/CraftsNet-StreamEncoders/edit/main/README.md#maven) or [Gradle](https://github.com/CraftsBlock/CraftsNet-StreamEncoders/edit/main/README.md#gradle). You are also required to export your jar as a [thin / fat jar](https://stackoverflow.com/a/57592130)!
+> Only required if you are using the install method [Maven](https://github.com/CraftsBlock/CraftsNet-StreamEncoders/blob/master/README.md#maven) or [Gradle](https://github.com/CraftsBlock/CraftsNet-StreamEncoders/blob/master/README.md#gradle). You are also required to export your jar as a [thin / fat jar](https://stackoverflow.com/a/57592130)!
 
 ### Using the AddonContainingBuilder
 ```java
