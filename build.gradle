@@ -19,8 +19,7 @@ dependencies {
     // CraftsBlock related dependencies ---------------------------------------------------------------------------------------
 
     implementation 'de.craftsblock:craftscore:3.8.2-SNAPSHOT'
-//    implementation 'de.craftsblock:craftsnet:3.3.3-SNAPSHOT'
-    implementation files("C:\\Users\\phili\\Desktop\\CraftsNet.jar")
+    implementation 'de.craftsblock:craftsnet:3.3.3-SNAPSHOT'
 
     // Third party needed dependencies ----------------------------------------------------------------------------------------
 
