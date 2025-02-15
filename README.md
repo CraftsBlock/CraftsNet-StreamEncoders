@@ -7,6 +7,9 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/CraftsBlock/CraftsNet-StreamEncoders/total)
 ![GitHub issues](https://img.shields.io/github/issues-raw/CraftsBlock/CraftsNet-StreamEncoders)
 
+> [!Note]
+> This addon requires at least CraftsNet version 3.3.3-SNAPSHOT.
+
 ---
 
 This addon was created to supply more advanced stream encoders to the CraftsNet framework. The following stream encoders are currently supported:
