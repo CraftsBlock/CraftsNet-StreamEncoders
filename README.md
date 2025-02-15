@@ -1,5 +1,5 @@
 # CraftsNet-StreamEncoders
-### Additionaly stream encoders for [CraftsNet](https://github.com/CraftsBlock/CraftsNet)
+### Additional stream encoders for [CraftsNet](https://github.com/CraftsBlock/CraftsNet)
 
 ![Latest Release on Maven](https://repo.craftsblock.de/api/badge/latest/releases/de/craftsblock/craftsnet/modules/streamencoders?color=40c14a&name=StreamEncoders&prefix=v)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/CraftsBlock/CraftsNet-StreamEncoders)
