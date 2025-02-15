@@ -2,6 +2,11 @@ plugins {
     id 'java'
 }
 
+java {
+    withJavadocJar()
+    withSourcesJar()
+}
+
 group = 'de.craftsblock.craftsnet.modules'
 version = '1.0.0-SNAPSHOT'
 
