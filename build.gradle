@@ -19,7 +19,7 @@ repositories {
 dependencies {
     // CraftsBlock related dependencies ---------------------------------------------------------------------------------------
 
-    implementation 'de.craftsblock:craftsnet:3.3.3-SNAPSHOT'
+    implementation "de.craftsblock:craftsnet:3.4.3-pre4"
 
     // Third party needed dependencies ----------------------------------------------------------------------------------------
 
