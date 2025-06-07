@@ -41,7 +41,7 @@ dependencies {
     implementation 'com.nixxcode.jvmbrotli:jvmbrotli-linux-x86-amd64:0.2.0'
 
     // https://mvnrepository.com/artifact/com.github.luben/zstd-jni
-    implementation 'com.github.luben:zstd-jni:1.5.6-9'
+    implementation 'com.github.luben:zstd-jni:1.5.7-3'
 }
 
 sourceCompatibility = JavaVersion.VERSION_17
