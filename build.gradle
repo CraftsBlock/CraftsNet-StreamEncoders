@@ -13,12 +13,12 @@ version = '1.0.0-SNAPSHOT'
 repositories {
     mavenCentral()
     maven { url "https://repo.craftsblock.de/releases" }
+    maven { url "https://repo.craftsblock.de/experimental" }
 }
 
 dependencies {
     // CraftsBlock related dependencies ---------------------------------------------------------------------------------------
 
-    implementation 'de.craftsblock:craftscore:3.8.2-SNAPSHOT'
     implementation 'de.craftsblock:craftsnet:3.3.3-SNAPSHOT'
 
     // Third party needed dependencies ----------------------------------------------------------------------------------------
