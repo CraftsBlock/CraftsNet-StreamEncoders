@@ -9,7 +9,7 @@
     "CraftsBlock"
   ],
   "dependencies": [
-    "com.github.luben:zstd-jni:1.5.6-9",
+    "com.github.luben:zstd-jni:1.5.7-3",
     "com.nixxcode.jvmbrotli:jvmbrotli:0.2.0",
     "com.nixxcode.jvmbrotli:jvmbrotli-darwin-x86-amd64:0.2.0",
     "com.nixxcode.jvmbrotli:jvmbrotli-win32-x86-amd64:0.2.0",
